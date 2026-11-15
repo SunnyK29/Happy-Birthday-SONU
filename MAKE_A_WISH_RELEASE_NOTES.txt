@@ -1,0 +1,11 @@
+# Package notes
+
+- Release: 18 November 2026, 00:00 IST (unchanged)
+- Appreciation payload: encrypted at private/appreciation-site.tar.gz.enc
+- GitHub Actions secret required: SORRY_DECRYPTION_KEY
+- Automatic game build: runs after decryption, before Pages artifact upload
+- Browser game URL after release: /appreciation/game/index.html
+
+Do not commit the separate key file. Set the repository Actions secret SORRY_DECRYPTION_KEY to the existing release key value supplied separately.
+
+Recipient naming: Sonu (Khushu). The previous Pari/Janhvi recipient-facing copy has been updated.
